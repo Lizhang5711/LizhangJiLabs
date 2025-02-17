@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://djalyg4oiqybe"]
+
+[ext_resource type="Texture2D" uid="uid://cv3ln03vftrsa" path="res://mimikyu.png" id="1_uj4lf"]
+[ext_resource type="Texture2D" uid="uid://mrv2vrgva0tf" path="res://mew.png" id="2_0nmvi"]
+
+[node name="Mimikyu" type="Sprite2D"]
+position = Vector2(291, 300)
+scale = Vector2(0.373333, 0.373333)
+texture = ExtResource("1_uj4lf")
+
+[node name="Mew" type="Sprite2D" parent="."]
+position = Vector2(1380.57, -62.625)
+scale = Vector2(1.8863, 1.8863)
+texture = ExtResource("2_0nmvi")

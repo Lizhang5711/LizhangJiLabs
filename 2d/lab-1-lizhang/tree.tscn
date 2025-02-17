@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://csqxynu1gr1f0"]
+
+[ext_resource type="Texture2D" uid="uid://dx7f7xy8socdl" path="res://tree.webp" id="1_ipoty"]
+
+[node name="tree" type="Node2D"]
+
+[node name="Tree" type="Sprite2D" parent="."]
+modulate = Color(1, 0.686275, 1, 1)
+position = Vector2(221, 232)
+scale = Vector2(0.965, 0.965)
+texture = ExtResource("1_ipoty")

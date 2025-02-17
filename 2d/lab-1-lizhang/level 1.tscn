@@ -1,0 +1,62 @@
+[gd_scene load_steps=5 format=3 uid="uid://cpw6hb8m3841s"]
+
+[ext_resource type="PackedScene" uid="uid://csqxynu1gr1f0" path="res://tree.tscn" id="1_24rgj"]
+[ext_resource type="Texture2D" uid="uid://cv3ln03vftrsa" path="res://mimikyu.png" id="2_3xl0p"]
+[ext_resource type="Texture2D" uid="uid://mrv2vrgva0tf" path="res://mew.png" id="3_tk5x0"]
+[ext_resource type="PackedScene" uid="uid://ckq753mvs2yrv" path="res://flower.tscn" id="4_ja3u4"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="tree" parent="." instance=ExtResource("1_24rgj")]
+position = Vector2(16, 9)
+
+[node name="tree2" parent="." instance=ExtResource("1_24rgj")]
+position = Vector2(676, 11)
+
+[node name="tree3" parent="." instance=ExtResource("1_24rgj")]
+position = Vector2(342, -1)
+
+[node name="Mimikyu" type="Sprite2D" parent="."]
+position = Vector2(413, 370)
+scale = Vector2(0.278333, 0.278333)
+texture = ExtResource("2_3xl0p")
+
+[node name="Mew" type="Sprite2D" parent="."]
+position = Vector2(712, 389)
+scale = Vector2(0.396461, 0.396461)
+texture = ExtResource("3_tk5x0")
+
+[node name="Node2D" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(175, 168)
+
+[node name="Node2D2" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(301, 168)
+
+[node name="Node2D3" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(645, 186)
+
+[node name="Node2D4" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(515, 216)
+
+[node name="Node2D5" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(581, 120)
+
+[node name="Node2D6" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(969, 214)
+
+[node name="Node2D7" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(811, 200)
+
+[node name="Node2D8" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(919, 154)
+
+[node name="Node2D9" parent="." instance=ExtResource("4_ja3u4")]
+position = Vector2(225, 216)
+
+[node name="Node2D10" parent="." instance=ExtResource("4_ja3u4")]
+modulate = Color(1, 0.890196, 0, 1)
+position = Vector2(173, 464)
+
+[node name="Node2D11" parent="." instance=ExtResource("4_ja3u4")]
+modulate = Color(0, 1, 1, 1)
+position = Vector2(905, 444)

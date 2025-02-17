@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckq753mvs2yrv"]
+
+[ext_resource type="Texture2D" uid="uid://bppm6ha3xfa4d" path="res://flower.webp" id="1_8jp4t"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Some-flowers-v0-7Jfvgpfr6Ptb1" type="Sprite2D" parent="."]
+position = Vector2(0, 1)
+scale = Vector2(0.107812, 0.107812)
+texture = ExtResource("1_8jp4t")
