@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://detmo22gsua30"]
+
+[ext_resource type="Texture2D" uid="uid://cuajekmpdh0ed" path="res://icon.svg" id="1_glpr6"]
+
+[sub_resource type="GDScript" id="GDScript_0llpg"]
+script/source = "extends Sprite2D
+
+@export var character_name=\"Q\"
+var age = 20
+@export var health = 10
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	print(\"hello my name is \", character_name) # Replace with function body.
+
+
+
+func _process(delta):
+	#if health <= 0:
+		#print (\"You are Dead!\")
+	#elif health <3:
+		#print (\"You are almost dead\")
+	#else:
+		#print (\"You still alive\")
+	
+	if Input.is_action_just_pressed(\"ui_accept\"):
+		print(\"you pressed a button\")
+	
+   
+"
+
+[node name="Sprite2D" type="Sprite2D"]
+texture = ExtResource("1_glpr6")
+script = SubResource("GDScript_0llpg")
